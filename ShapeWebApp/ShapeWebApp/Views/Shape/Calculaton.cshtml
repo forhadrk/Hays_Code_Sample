@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "Calculaton";
+}
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/CustomContents/Shape_Javascript.js"></script>
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Shape Jquery Code</a></li>
+    </ol>
+</nav>
+<div class="row" style="margin-top:20px;">
+
+    <div class="col-sm-12 col-md-2 col-lg-2 text-right" style="padding-top: 10px;">
+        <label for="">Select Shape</label>
+    </div>
+    <div class="col-sm-12 col-md-4 col-lg-4">
+        <select id="ddlShape" class="form-control">
+            <option value=""> Select Shape</option>
+            <option value="Circle">Circle</option>
+            <option value="Square">Square</option>
+            <option value="Rectangle">Rectangle</option>
+            <option value="Triangle">Triangle</option>
+        </select>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-6" style="padding-top:10px">
+        <span id="spResult"></span>
+    </div>
+</div>
+<hr />
+<div class="row">
+    <div id="divHtml" class="row">
+
+    </div>
+</div>
+
+<style type="text/css">
+    .form-control {
+        border-radius: 0px !important;
+        height: 40px !important;
+    }
+
+    .customError {
+        background-color: #ffeeee;
+        border: 1px solid #ff0000;
+    }
+
+    #spResult {
+        font-size: 10pt;
+        font-weight: 700;
+        font-family: cursive;
+    }
+</style>
